@@ -1,19 +1,1311 @@
-<!doctype html>
-<html lang="en" data-critters-container>
-<head>
-  <meta charset="utf-8">
-  <title>Protfolio</title>
-  <base href="/">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="icon" type="image/x-icon" href="favicon.ico">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<style type="text/css">@font-face{font-family:'Poppins';font-style:normal;font-weight:300;font-display:swap;src:url(https://fonts.gstatic.com/s/poppins/v20/pxiByp8kv8JHgFVrLDz8Z11lFd2JQEl8qw.woff2) format('woff2');unicode-range:U+0900-097F, U+1CD0-1CF9, U+200C-200D, U+20A8, U+20B9, U+25CC, U+A830-A839, U+A8E0-A8FF;}@font-face{font-family:'Poppins';font-style:normal;font-weight:300;font-display:swap;src:url(https://fonts.gstatic.com/s/poppins/v20/pxiByp8kv8JHgFVrLDz8Z1JlFd2JQEl8qw.woff2) format('woff2');unicode-range:U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;}@font-face{font-family:'Poppins';font-style:normal;font-weight:300;font-display:swap;src:url(https://fonts.gstatic.com/s/poppins/v20/pxiByp8kv8JHgFVrLDz8Z1xlFd2JQEk.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;}@font-face{font-family:'Poppins';font-style:normal;font-weight:400;font-display:swap;src:url(https://fonts.gstatic.com/s/poppins/v20/pxiEyp8kv8JHgFVrJJbecnFHGPezSQ.woff2) format('woff2');unicode-range:U+0900-097F, U+1CD0-1CF9, U+200C-200D, U+20A8, U+20B9, U+25CC, U+A830-A839, U+A8E0-A8FF;}@font-face{font-family:'Poppins';font-style:normal;font-weight:400;font-display:swap;src:url(https://fonts.gstatic.com/s/poppins/v20/pxiEyp8kv8JHgFVrJJnecnFHGPezSQ.woff2) format('woff2');unicode-range:U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;}@font-face{font-family:'Poppins';font-style:normal;font-weight:400;font-display:swap;src:url(https://fonts.gstatic.com/s/poppins/v20/pxiEyp8kv8JHgFVrJJfecnFHGPc.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;}@font-face{font-family:'Poppins';font-style:normal;font-weight:500;font-display:swap;src:url(https://fonts.gstatic.com/s/poppins/v20/pxiByp8kv8JHgFVrLGT9Z11lFd2JQEl8qw.woff2) format('woff2');unicode-range:U+0900-097F, U+1CD0-1CF9, U+200C-200D, U+20A8, U+20B9, U+25CC, U+A830-A839, U+A8E0-A8FF;}@font-face{font-family:'Poppins';font-style:normal;font-weight:500;font-display:swap;src:url(https://fonts.gstatic.com/s/poppins/v20/pxiByp8kv8JHgFVrLGT9Z1JlFd2JQEl8qw.woff2) format('woff2');unicode-range:U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;}@font-face{font-family:'Poppins';font-style:normal;font-weight:500;font-display:swap;src:url(https://fonts.gstatic.com/s/poppins/v20/pxiByp8kv8JHgFVrLGT9Z1xlFd2JQEk.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;}@font-face{font-family:'Poppins';font-style:normal;font-weight:600;font-display:swap;src:url(https://fonts.gstatic.com/s/poppins/v20/pxiByp8kv8JHgFVrLEj6Z11lFd2JQEl8qw.woff2) format('woff2');unicode-range:U+0900-097F, U+1CD0-1CF9, U+200C-200D, U+20A8, U+20B9, U+25CC, U+A830-A839, U+A8E0-A8FF;}@font-face{font-family:'Poppins';font-style:normal;font-weight:600;font-display:swap;src:url(https://fonts.gstatic.com/s/poppins/v20/pxiByp8kv8JHgFVrLEj6Z1JlFd2JQEl8qw.woff2) format('woff2');unicode-range:U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;}@font-face{font-family:'Poppins';font-style:normal;font-weight:600;font-display:swap;src:url(https://fonts.gstatic.com/s/poppins/v20/pxiByp8kv8JHgFVrLEj6Z1xlFd2JQEk.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;}@font-face{font-family:'Source Code Pro';font-style:normal;font-weight:300;font-display:swap;src:url(https://fonts.gstatic.com/s/sourcecodepro/v22/HI_SiYsKILxRpg3hIP6sJ7fM7PqlMOvWnsUnxlC9.woff2) format('woff2');unicode-range:U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;}@font-face{font-family:'Source Code Pro';font-style:normal;font-weight:300;font-display:swap;src:url(https://fonts.gstatic.com/s/sourcecodepro/v22/HI_SiYsKILxRpg3hIP6sJ7fM7PqlOevWnsUnxlC9.woff2) format('woff2');unicode-range:U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;}@font-face{font-family:'Source Code Pro';font-style:normal;font-weight:300;font-display:swap;src:url(https://fonts.gstatic.com/s/sourcecodepro/v22/HI_SiYsKILxRpg3hIP6sJ7fM7PqlMevWnsUnxlC9.woff2) format('woff2');unicode-range:U+1F00-1FFF;}@font-face{font-family:'Source Code Pro';font-style:normal;font-weight:300;font-display:swap;src:url(https://fonts.gstatic.com/s/sourcecodepro/v22/HI_SiYsKILxRpg3hIP6sJ7fM7PqlPuvWnsUnxlC9.woff2) format('woff2');unicode-range:U+0370-03FF;}@font-face{font-family:'Source Code Pro';font-style:normal;font-weight:300;font-display:swap;src:url(https://fonts.gstatic.com/s/sourcecodepro/v22/HI_SiYsKILxRpg3hIP6sJ7fM7PqlMuvWnsUnxlC9.woff2) format('woff2');unicode-range:U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;}@font-face{font-family:'Source Code Pro';font-style:normal;font-weight:300;font-display:swap;src:url(https://fonts.gstatic.com/s/sourcecodepro/v22/HI_SiYsKILxRpg3hIP6sJ7fM7PqlM-vWnsUnxlC9.woff2) format('woff2');unicode-range:U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;}@font-face{font-family:'Source Code Pro';font-style:normal;font-weight:300;font-display:swap;src:url(https://fonts.gstatic.com/s/sourcecodepro/v22/HI_SiYsKILxRpg3hIP6sJ7fM7PqlPevWnsUnxg.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;}@font-face{font-family:'Source Code Pro';font-style:normal;font-weight:600;font-display:swap;src:url(https://fonts.gstatic.com/s/sourcecodepro/v22/HI_SiYsKILxRpg3hIP6sJ7fM7PqlMOvWnsUnxlC9.woff2) format('woff2');unicode-range:U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;}@font-face{font-family:'Source Code Pro';font-style:normal;font-weight:600;font-display:swap;src:url(https://fonts.gstatic.com/s/sourcecodepro/v22/HI_SiYsKILxRpg3hIP6sJ7fM7PqlOevWnsUnxlC9.woff2) format('woff2');unicode-range:U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;}@font-face{font-family:'Source Code Pro';font-style:normal;font-weight:600;font-display:swap;src:url(https://fonts.gstatic.com/s/sourcecodepro/v22/HI_SiYsKILxRpg3hIP6sJ7fM7PqlMevWnsUnxlC9.woff2) format('woff2');unicode-range:U+1F00-1FFF;}@font-face{font-family:'Source Code Pro';font-style:normal;font-weight:600;font-display:swap;src:url(https://fonts.gstatic.com/s/sourcecodepro/v22/HI_SiYsKILxRpg3hIP6sJ7fM7PqlPuvWnsUnxlC9.woff2) format('woff2');unicode-range:U+0370-03FF;}@font-face{font-family:'Source Code Pro';font-style:normal;font-weight:600;font-display:swap;src:url(https://fonts.gstatic.com/s/sourcecodepro/v22/HI_SiYsKILxRpg3hIP6sJ7fM7PqlMuvWnsUnxlC9.woff2) format('woff2');unicode-range:U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;}@font-face{font-family:'Source Code Pro';font-style:normal;font-weight:600;font-display:swap;src:url(https://fonts.gstatic.com/s/sourcecodepro/v22/HI_SiYsKILxRpg3hIP6sJ7fM7PqlM-vWnsUnxlC9.woff2) format('woff2');unicode-range:U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;}@font-face{font-family:'Source Code Pro';font-style:normal;font-weight:600;font-display:swap;src:url(https://fonts.gstatic.com/s/sourcecodepro/v22/HI_SiYsKILxRpg3hIP6sJ7fM7PqlPevWnsUnxg.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;}</style>
-<style>*,:before,:after{box-sizing:border-box;border-width:0;border-style:solid;border-color:#e5e7eb}:before,:after{--tw-content:""}html{line-height:1.5;-webkit-text-size-adjust:100%;tab-size:4;font-family:Roboto,sans-serif;font-feature-settings:normal;font-variation-settings:normal}body{margin:0;line-height:inherit}*,:before,:after{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-gradient-from-position: ;--tw-gradient-via-position: ;--tw-gradient-to-position: ;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgb(59 130 246 / .5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: }.bg-gradient-to-b{background-image:linear-gradient(to bottom,var(--tw-gradient-stops))}.from-gray-500{--tw-gradient-from:#6b7280 var(--tw-gradient-from-position);--tw-gradient-to:rgb(107 114 128 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.to-neutral-200{--tw-gradient-to:#e5e5e5 var(--tw-gradient-to-position)}*{font-family:Poppins,sans-serif;font-family:Source Code Pro,monospace}@media (prefers-reduced-motion: reduce){}</style><link rel="stylesheet" href="styles.533a610015db4422.css" media="print" onload="this.media='all'"><noscript><link rel="stylesheet" href="styles.533a610015db4422.css"></noscript></head>
-<body class="bg-gradient-to-b from-gray-500 to-neutral-200">
-  <app-root></app-root>
-  <script type="text/javascript" src="../node_modules/tw-elements/dist/js/tw-elements.umd.min.js"></script>
-<script src="runtime.2285d4ccfa231a6c.js" type="module"></script><script src="polyfills.0db2a3bd0b1c0a40.js" type="module"></script><script src="main.c4004f954c97c9d9.js" type="module"></script></body>
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+		
+		
+		<title>Modern & Minimal Resume / CV & vCard Template</title>
+		
+		
+		<!--=====================================================
+			CSS Stylesheets
+		=====================================================-->
+		<link rel='stylesheet' type='text/css' href='bootstrap/css/bootstrap.min.css' >
+		<link rel='stylesheet' type='text/css' href='css/linea.css' >
+		<link rel='stylesheet' type='text/css' href='css/ionicons.min.css' >
+		<link rel='stylesheet' type='text/css' href='css/owl.carousel.css' >
+		<link rel='stylesheet' type='text/css' href='css/magnific-popup.css' >
+		<link rel='stylesheet' type='text/css' href='css/style.css' >
+		
+	</head>
+	<body>
+		
+		
+		<!--=====================================================
+			Preloader
+		=====================================================-->
+		<div id='preloader' >
+			<div class='loader' ></div>
+			<div class='left' ></div>
+			<div class='right' ></div>
+		</div>
+		
+		
+		<div class='main-content' >
+			
+			<!--=====================================================
+				Page Borders
+			=====================================================-->
+			<div class='page-border border-left' ></div>
+			<div class='page-border border-right' ></div>
+			<div class='page-border border-top' ></div>
+			<div class='page-border border-bottom' ></div>
+			
+			
+			
+			<!--=====================================================
+				Menu Button
+			=====================================================-->
+			<a href='#' class='menu-btn' >
+				<span class='lines' >
+					<span class='l1' ></span>
+					<span class='l2' ></span>
+					<span class='l3' ></span>
+				</span>
+			</a>
+			
+			
+			<!--=====================================================
+				Menu
+			=====================================================-->
+			<div class='menu' >
+				<div class='inner' >
+					<ul class='menu-items' >
+						
+						<li>
+							<a href='#' class='section-toggle' data-section='intro' >
+								Home
+							</a>
+						</li>
+						
+						<li>
+							<a href='#about' class='section-toggle' data-section='about' >
+								About
+							</a>
+						</li>
+						
+						<li>
+							<a href='#resume' class='section-toggle' data-section='resume' >
+								Resume
+							</a>
+						</li>
+						
+						<li>
+							<a href='#portfolio' class='section-toggle' data-section='portfolio' >
+								Portfolio
+							</a>
+						</li>
+						
+						
+						<li>
+							<a href='#contact' class='section-toggle' data-section='contact' >
+								Contact
+							</a>
+						</li>
+						
+						
+					</ul>
+				</div>
+			</div>
+			
+			<div class='animation-block' ></div>
+			
+			
+			<!--=====================================================
+				Sections
+			=====================================================-->
+			<div class='sections' >
+				
+				<!--=====================================================
+					Main Section
+				=====================================================-->
+				<section id='intro' class='section section-main active' >
+					
+					<div class='container-fluid' >
+						
+						<div class='v-align' >
+							<div class='inner' >
+								<div class='intro-text' >
+									
+									<h1>I'm Muhamamd Asim</h1>
+									
+									<p>
+										Greetings! I'm Muhammad Asim, a driven Computer Science student, enthusiastic about pushing the boundaries of technology.
+									</p>
+									
+									<div class='intro-btns' >
+										
+										<a href='#about' class='btn-custom section-toggle' data-section='about' >
+											Discover More
+										</a>
+										
+										<a href='#contact' class='btn-custom section-toggle' data-section='contact' >
+											Hire Me
+										</a>
+										
+									</div>
+									
+								</div>
+							</div>
+							
+						</div>
+						
+					</div>
+				
+				</section>
+				
+				
+				<!--=====================================================
+					About Section
+				=====================================================-->
+				<section id='about' class='section about-section border-d' >
+					
+					<div class='section-block about-block' >
+						<div class='container-fluid' >
+							
+							<div class='section-header' >
+								<h2>
+									I'm a <strong class='color' >Full Stack Developer & Flutter</strong>
+								</h2>
+							</div>
+							
+							<div class='row' >
+								
+								<div class='col-md-4' >
+									
+									<ul class='info-list' >
+										
+										<li>
+											<strong>Name:</strong>
+											<span>Muhamamd Asim Chatta</span>
+										</li>
+										
+										<li>
+											<strong>Job:</strong>
+											<span>Freelancer</span>
+										</li>
+										
+										<li>
+											<strong>Age:</strong>
+											<span>21 Years</span>
+										</li>
+										
+										<li>
+											<strong>Residence:</strong>
+											<span>Pakistan</span>
+										</li>
+										
+										<li>
+											<strong>Hometown:</strong>
+											<span>Rawalpindi</span>
+										</li>
+										
+										
+										
+									</ul>
+									
+								</div>
+								
+								<div class='col-md-8' >
+								
+									<div class='about-text' >
+										<p>
+											Greetings! I'm Muhammad Asim, a driven Computer Science student at Air University, enthusiastic about pushing the boundaries of technology.
+										</p>
+										
+										<p>
+											In the dynamic realm of technology, I'm a firm believer in continuous learning. Currently, I'm immersing myself in the world of DevOps, Flutter and MEAN Stack Development, harnessing their power to create seamless and innovative solutions.
+										</p>
+										<p>
+											My academic path has laid a strong foundation in computer science principles, programming languages, and software development methodologies. Collaborative environments invigorate me—I value teamwork, communication, and the exchange of diverse ideas. 
+										</p>
+										<p>
+											If you're seeking a dedicated and enthusiastic individual to contribute to your tech projects or discussions, I'm just a connection away. Let's forge a path together that brings innovation to life and transforms the tech landscape.
+										</p>
+									</div>
+									
+									<div class='about-btns' >
+										
+										<a href='https://github.com/chmuhammadasim' class='btn-custom btn-color' >
+											Github
+										</a>
+										
+										<a href='https://www.linkedin.com/in/muhammad-asim-chattha/' class='btn-custom btn-color' >
+											Linkedin
+										</a>
+
+										<a href='./resume/CV.pdf' download="./resume/CV.pdf" class='btn-custom btn-color' >
+											DownLoad  CV
+										</a>
+										
+									</div>
+									
+								</div>
+								
+							</div>
+							
+						</div>
+					</div>
+					
+					<div class='section-block services-block' >
+						
+						<div class='container-fluid' >
+							
+							<div class='section-header' >
+								
+								<h2>My <strong class='color' >Services</strong></h2>
+								
+							</div>
+							
+							
+							
+							<div class='row' >
+								
+								<div class='col-md-4' >
+									<div class='service' >
+										
+										<div class='icon' >
+											<i class='icon-basic-webpage' ></i>
+										</div>
+										
+										<div class='content' >
+											
+											<h4>Full Stack Developer</h4>
+											
+											<p>
+												I'm a dedicated full-stack developer with a passion for creating robust and user-centric web applications. With expertise in both front-end and back-end technologies, I thrive on crafting seamless and engaging digital experiences.
+											</p>
+											
+										</div>
+										
+									</div>
+								</div>
+								
+								<div class='col-md-4' >
+									<div class='service' >
+										
+										<div class='icon' >
+											<i class='icon-basic-tablet' ></i>
+										</div>
+										
+										<div class='content' >
+											
+											<h4>Flutter</h4>
+											
+											<p>
+												I'm a passionate Flutter developer driven by the art of creating engaging and dynamic mobile applications. With a deep understanding of Flutter's UI framework and Dart programming language, I specialize in crafting visually appealing and performant apps that provide exceptional user experiences.
+											</p>
+											
+										</div>
+										
+									</div>
+								</div>
+								
+								<div class='col-md-4' >
+									<div class='service' >
+										
+										<div class='icon' >
+											<i class='ion-settings' ></i>
+										</div>
+										
+										<div class='content' >
+											
+											<h4>DevOps</h4>
+											
+											<p>
+												I'm a dedicated DevOps enthusiast with a strong passion for streamlining development and operations processes to drive efficiency and collaboration. Equipped with a blend of technical skills and strategic thinking, I excel in creating automated pipelines, optimizing deployments, and fostering a culture of continuous integration and delivery.
+											</p>
+											
+										</div>
+										
+									</div>
+								</div>
+								
+								
+								
+							</div>
+							
+							
+						</div>
+						
+					</div>
+					
+					<div class='section-block skills-block' >
+						<div class='container-fluid' >
+							
+							<div class='section-header' >
+								
+								<h2>
+									My <strong class='color' >Skills</strong>
+								</h2>
+								
+							</div>
+							
+							<div class='row' >
+								
+								<div class='col-md-6' >
+									
+									<div class='skill' >
+										
+										<h4>HTML/CSS</h4>
+										
+										<div class='bar' >
+											<div class='percent' style='width:75%;' ></div>
+										</div>
+										
+									</div>
+									
+									
+									<div class='skill' >
+										
+										<h4>Angular</h4>
+										
+										<div class='bar' >
+											<div class='percent' style='width:70%;' ></div>
+										</div>
+										
+									</div>
+									
+									<div class='skill' >
+										
+										<h4>Flutter</h4>
+										
+										<div class='bar' >
+											<div class='percent' style='width:75%;' ></div>
+										</div>
+										
+									</div>
+
+									<div class='skill' >
+										
+										<h4>Dart</h4>
+										
+										<div class='bar' >
+											<div class='percent' style='width:75%;' ></div>
+										</div>
+										
+									</div>
+									
+									
+									<div class='skill' >
+										
+										<h4>DevOps</h4>
+										
+										<div class='bar' >
+											<div class='percent' style='width:60%;' ></div>
+										</div>
+										
+									</div>
+
+									<div class='skill' >
+										
+										<h4>Linux</h4>
+										
+										<div class='bar' >
+											<div class='percent' style='width:60%;' ></div>
+										</div>
+										
+									</div>
+									
+								</div>
+								
+								<div class='col-md-6' >
+									
+									<div class='skill' >
+										
+										<h4>Illustrator/Photoshop</h4>
+										
+										<div class='bar' >
+											<div class='percent' style='width:75%;' ></div>
+										</div>
+										
+									</div>
+
+									<div class='skill' >
+										
+										<h4>Bootstrap/Tailwind/Material</h4>
+										
+										<div class='bar' >
+											<div class='percent' style='width:75%;' ></div>
+										</div>
+										
+									</div>
+
+									<div class='skill' >
+										
+										<h4>CPP</h4>
+										
+										<div class='bar' >
+											<div class='percent' style='width:75%;' ></div>
+										</div>
+										
+									</div>
+
+									<div class='skill' >
+										
+										<h4>Nodejs</h4>
+										
+										<div class='bar' >
+											<div class='percent' style='width:70%;' ></div>
+										</div>
+										
+									</div>
+
+									<div class='skill' >
+										
+										<h4>Express</h4>
+										
+										<div class='bar' >
+											<div class='percent' style='width:70%;' ></div>
+										</div>
+										
+									</div>
+
+									<div class='skill' >
+										
+										<h4>MongoDB/Firebase</h4>
+										
+										<div class='bar' >
+											<div class='percent' style='width:70%;' ></div>
+										</div>
+										
+									</div>
+									
+								</div>
+								
+							</div>
+							
+							
+						</div>
+					</div>
+					
+					<!-- <div class='section-block pricing-block' >
+						
+						<div class='section-header' >
+							<h2>My <strong class='color' >Pricing</strong></h2>
+						</div>
+						
+						
+						<div class='row' >
+							
+							<div class='col-md-4' >
+								
+								<div class='p-table' >
+									
+									<div class='header' >
+										
+										<h4>Basic</h4>
+										
+										<div class='price' >
+											<span class='currency' >$</span>
+											<span class='amount' >19</span>
+											<span class='period' >/HR</span>
+										</div>
+										
+										
+									</div>
+									
+									<ul class='items' >
+										<li>
+											App Designing
+										</li>
+										<li>
+											App Development
+										</li>
+										<li>
+											Web Development
+										</li>
+									</ul>
+									
+									<a href='#' class='btn-custom btn-color' >
+										Choose This
+									</a>
+									
+								</div>
+								
+							</div>
+							
+							<div class='col-md-4' >
+								
+								<div class='p-table' >
+									
+									<div class='header' >
+										
+										<h4>Pro</h4>
+										
+										<div class='price' >
+											<span class='currency' >$</span>
+											<span class='amount' >29</span>
+											<span class='period' >/HR</span>
+										</div>
+										
+										
+									</div>
+									
+									<ul class='items' >
+										<li>
+											App Designing
+										</li>
+										<li>
+											App Development
+										</li>
+										<li>
+											Web Development
+										</li>
+									</ul>
+									
+									<a href='#' class='btn-custom btn-color' >
+										Choose This
+									</a>
+									
+								</div>
+								
+							</div>
+							
+							<div class='col-md-4' >
+								
+								<div class='p-table' >
+									
+									<div class='header' >
+										
+										<h4>Gold</h4>
+										
+										<div class='price' >
+											<span class='currency' >$</span>
+											<span class='amount' >39</span>
+											<span class='period' >/HR</span>
+										</div>
+										
+										
+									</div>
+									
+									<ul class='items' >
+										<li>
+											App Designing
+										</li>
+										<li>
+											App Development
+										</li>
+										<li>
+											Web Development
+										</li>
+									</ul>
+									
+									<a href='#' class='btn-custom btn-color' >
+										Choose This
+									</a>
+									
+								</div>
+								
+							</div>
+							
+							
+						</div>
+						
+						
+					</div> -->
+					
+				</section>
+				
+				
+				<!--=====================================================
+					Resume Section
+				=====================================================-->
+				<section id='resume' class='section resume-section border-d' >
+					
+					<div class='section-block timeline-block' >
+						
+						<div class='container-fluid' >
+							
+							<div class='section-header' >
+								
+								<h2>My <strong class='color' >Education</strong></h2>
+								
+							</div>
+							
+							<ul class='timeline' >
+								
+								<li>
+									
+									<div class='timeline-content' >
+										
+										<h4>Air Univerity</h4>
+										
+										<em>
+											<span>Bachelor Degree</span>
+											<span>2021-continued</span>
+										</em>
+										
+										<p>
+											I am currently pursuing a Bachelor of Science in Computer Science (BSCS) at Air University, Islamabad. My academic journey has been a dynamic exploration of computer science principles, programming languages, and software development methodologies.
+										</p>
+										
+									</div>
+									
+								</li>
+								
+								<li>
+									
+									<div class='timeline-content' >
+										
+										<h4>Fazaia Inter College Jinnah Camp</h4>
+										
+										<em>
+											<span>HSSC-II</span>
+											<span>2019-2021</span>
+										</em>
+										
+										<p>				
+											I have completed my Higher Secondary School Certificate (HSSC) Level 2 education. This phase of my academic journey has provided me with a solid foundation in various subjects, fostering critical thinking and problem-solving skills. 
+										</p>
+										
+									</div>
+									
+								</li>
+								
+								<li>
+									
+									<div class='timeline-content' >
+										
+										<h4>Divisional Pubic School, Rawalpindi</h4>
+										
+										<em>
+											<span>HSSC</span>
+											<span>2017-2019</span>
+										</em>
+										
+										<p>
+											The Higher Secondary School Certificate (HSSC) represents the completion of secondary education and is typically a two-year program. During this phase, students undertake specialized subjects of their choice, building on the knowledge gained during their earlier education.
+										</p>
+										
+									</div>
+									
+								</li>
+								
+								
+								
+							</ul>
+							
+						</div>
+						
+					</div>
+					
+					<div class='section-block timeline-block' >
+						
+						<div class='container-fluid' >
+							
+							<div class='section-header' >
+								
+								<h2>My <strong class='color' >Experience</strong></h2>
+								
+							</div>
+							
+							<ul class='timeline' >
+								
+								<li>
+									
+									<div class='timeline-content' >
+										
+										<h4>Internship (IotaScales Pvt)</h4>
+										
+										<em>
+											<span>DevOps & Full Stack Development</span>
+											<span>2023</span>
+										</em>
+										
+										<!-- <p>
+											Lorem ipsum dolor sit amet, id electram reprimique his, dicta saepe oporteat eos an, esse erat doming at lam. Nec quodsi suscipiantur an, ad graece nemore ocurreret lam, agam ipsum meliore quo ut.
+										</p> -->
+										
+									</div>
+									
+								</li>
+								
+								<li>
+									
+									<div class='timeline-content' >
+										
+										<h4>Internship (Air University)</h4>
+										
+										<em>
+											<span>Flutter </span>
+											<span>2023</span>
+										</em>
+										
+										<!-- <p>
+											Lorem ipsum dolor sit amet, id electram reprimique his, dicta saepe oporteat eos an, esse erat doming at lam. Nec quodsi suscipiantur an, ad graece nemore ocurreret lam, agam ipsum meliore quo ut.
+										</p> -->
+										
+									</div>
+									
+								</li>
+								
+								<!-- <li>
+									
+									<div class='timeline-content' >
+										
+										<h4>CSS College Larkana</h4>
+										
+										<em>
+											<span>Masters Degree</span>
+											<span>2013-2016</span>
+										</em>
+										
+										<p>
+											Lorem ipsum dolor sit amet, id electram reprimique his, dicta saepe oporteat eos an, esse erat doming at lam. Nec quodsi suscipiantur an, ad graece nemore ocurreret lam, agam ipsum meliore quo ut.
+										</p>
+										
+									</div>
+									
+								</li> -->
+								
+								
+								
+							</ul>
+							
+						</div>
+						
+					</div>
+					
+					<!-- <div class='section-block testimonials-block' >
+						
+						<div class='container-fluid' >
+							
+							<div class='section-header' >
+								
+								<h2>My <strong class='color' >Clients</strong></h2>
+								
+							</div>
+							
+							
+							<div class='testimonials-slider' >
+								
+								
+								<div class='testimonial' >
+									
+									<div class='icon' >
+										<i class='ion-quote' ></i>
+									</div>
+									
+									<p>
+										Ei constituam theophrastus per, sea dolorum disputationi in, vel menandri suavitate similique in. Vide assum conceptam eum et. Has postulant vul putate eu. Pro justo aliquando prodesset at.
+									</p>
+									
+									<div class='author' >
+										<h4>Jake Doe</h4>
+										<span>CEO at Company</span>
+									</div>
+									
+								</div>
+								
+								<div class='testimonial' >
+									
+									<div class='icon' >
+										<i class='ion-quote' ></i>
+									</div>
+									
+									<p>
+										Ei constituam theophrastus per, sea dolorum disputationi in, vel menandri suavitate similique in. Vide assum conceptam eum et. Has postulant vul putate eu. Pro justo aliquando prodesset at.
+									</p>
+									
+									<div class='author' >
+										<h4>Jake Doe</h4>
+										<span>CEO at Company</span>
+									</div>
+									
+								</div>
+								
+								
+								<div class='testimonial' >
+									
+									<div class='icon' >
+										<i class='ion-quote' ></i>
+									</div>
+									
+									<p>
+										Ei constituam theophrastus per, sea dolorum disputationi in, vel menandri suavitate similique in. Vide assum conceptam eum et. Has postulant vul putate eu. Pro justo aliquando prodesset at.
+									</p>
+									
+									<div class='author' >
+										<h4>Jake Doe</h4>
+										<span>CEO at Company</span>
+									</div>
+									
+								</div>
+								
+								<div class='testimonial' >
+									
+									<div class='icon' >
+										<i class='ion-quote' ></i>
+									</div>
+									
+									<p>
+										Ei constituam theophrastus per, sea dolorum disputationi in, vel menandri suavitate similique in. Vide assum conceptam eum et. Has postulant vul putate eu. Pro justo aliquando prodesset at.
+									</p>
+									
+									<div class='author' >
+										<h4>Jake Doe</h4>
+										<span>CEO at Company</span>
+									</div>
+									
+								</div>
+								
+								
+								<div class='testimonial' >
+									
+									<div class='icon' >
+										<i class='ion-quote' ></i>
+									</div>
+									
+									<p>
+										Ei constituam theophrastus per, sea dolorum disputationi in, vel menandri suavitate similique in. Vide assum conceptam eum et. Has postulant vul putate eu. Pro justo aliquando prodesset at.
+									</p>
+									
+									<div class='author' >
+										<h4>Jake Doe</h4>
+										<span>CEO at Company</span>
+									</div>
+									
+								</div>
+								
+								<div class='testimonial' >
+									
+									<div class='icon' >
+										<i class='ion-quote' ></i>
+									</div>
+									
+									<p>
+										Ei constituam theophrastus per, sea dolorum disputationi in, vel menandri suavitate similique in. Vide assum conceptam eum et. Has postulant vul putate eu. Pro justo aliquando prodesset at.
+									</p>
+									
+									<div class='author' >
+										<h4>Jake Doe</h4>
+										<span>CEO at Company</span>
+									</div>
+									
+								</div>
+								
+								
+							</div>
+							
+						</div>
+						
+					</div> -->
+					
+				</section>
+				
+				
+				<!--=====================================================
+					Portfolio Section
+				=====================================================-->
+				<section id='portfolio' class='section portfolio-section border-d' >
+					
+					<div class='section-block portfolio-block' >
+						
+						<div class='container-fluid' >
+							
+							
+							<div class='section-header' >
+								<h2>My <strong class='color' >Works</strong></h2>
+							</div>
+							
+							<ul class='portfolio-filters' >
+								<li>
+									<a href='#' class='active' data-group='all' >
+										All
+									</a>
+								</li>
+								<li>
+									<a href='#' data-group='web' >
+										Web
+									</a>
+								</li>
+								<li>
+									<a href='#' data-group='flutter' >
+										Flutter
+									</a>
+								</li>
+								<!-- <li>
+									<a href='#' data-group='photography' >
+										Photography
+									</a>
+								</li> -->
+							</ul>
+							
+							<ul class='portfolio-items' >
+								
+								<!-- <li data-groups='["web","tech"]' >
+									<div class='inner' >
+										<img src='img/portfolio/1.jpg' alt>
+										
+										<div class='overlay' >
+											
+											<a href='#popup-1' class='view-project' >
+												View Project
+											</a>
+											
+											
+											<div id='popup-1' class='popup-box zoom-anim-dialog mfp-hide' >
+												<figure>
+													
+													
+													<img src='img/portfolio/1.jpg' alt>
+												
+												</figure>
+												<div class='content' >
+													
+													
+													<h4>My Project Title</h4>
+													
+												
+													<p>
+														Consul latine iudicabit eu vel. Cu has animal eruditi voluptatibus. Eu volumus explicari sed. Mel mutat vituperata suscipiantur et, et fabellas explicari adipiscing quo, no mucius euismod vis. Cu vim quem quod cibo.
+													</p>
+													
+												</div>
+												
+											</div>
+											
+										</div>
+										
+									</div>
+								</li> -->
+								
+								<li data-groups='["tech","photography"]' >
+									<div class='inner' >
+										<img src='img/portfolio/2.jpg' alt>
+										
+										<div class='overlay' >
+											
+											<a href='#popup-2' class='view-project' >
+												View Project
+											</a>
+											
+											<!--project popup-->
+											<div id='popup-2' class='popup-box zoom-anim-dialog mfp-hide' >
+												<figure>
+													
+													<!--project popup image-->
+													<img src='img/portfolio/2.jpg' alt>
+												
+												</figure>
+												<div class='content' >
+													
+													<!--project popup title-->
+													<h4>My Project Title</h4>
+													
+													<!--project popup description-->
+													<p>
+														Consul latine iudicabit eu vel. Cu has animal eruditi voluptatibus. Eu volumus explicari sed. Mel mutat vituperata suscipiantur et, et fabellas explicari adipiscing quo, no mucius euismod vis. Cu vim quem quod cibo.
+													</p>
+													
+												</div>
+												
+											</div>
+											
+										</div>
+										
+									</div>
+								</li>
+								
+								<li data-groups='["web","photography"]' >
+									<div class='inner' >
+										<img src='img/portfolio/3.jpg' alt>
+										
+										<div class='overlay' >
+											
+											<a href='#popup-3' class='view-project' >
+												View Project
+											</a>
+											
+											<!--project popup-->
+											<div id='popup-3' class='popup-box zoom-anim-dialog mfp-hide' >
+												<figure>
+													
+													<!--project popup image-->
+													<img src='img/portfolio/3.jpg' alt>
+												
+												</figure>
+												<div class='content' >
+													
+													<!--project popup title-->
+													<h4>My Project Title</h4>
+													
+													<!--project popup description-->
+													<p>
+														Consul latine iudicabit eu vel. Cu has animal eruditi voluptatibus. Eu volumus explicari sed. Mel mutat vituperata suscipiantur et, et fabellas explicari adipiscing quo, no mucius euismod vis. Cu vim quem quod cibo.
+													</p>
+													
+												</div>
+												
+											</div>
+											
+										</div>
+										
+									</div>
+								</li>
+								
+								
+								<li data-groups='["web"]' >
+									<div class='inner' >
+										<img src='img/portfolio/4.jpg' alt>
+										
+										<div class='overlay' >
+											
+											<a href='#popup-4' class='view-project' >
+												View Project
+											</a>
+											
+											<!--project popup-->
+											<div id='popup-4' class='popup-box zoom-anim-dialog mfp-hide' >
+												<figure>
+													
+													<!--project popup image-->
+													<img src='img/portfolio/4.jpg' alt>
+												
+												</figure>
+												<div class='content' >
+													
+													<!--project popup title-->
+													<h4>My Project Title</h4>
+													
+													<!--project popup description-->
+													<p>
+														Consul latine iudicabit eu vel. Cu has animal eruditi voluptatibus. Eu volumus explicari sed. Mel mutat vituperata suscipiantur et, et fabellas explicari adipiscing quo, no mucius euismod vis. Cu vim quem quod cibo.
+													</p>
+													
+												</div>
+												
+											</div>
+											
+										</div>
+										
+									</div>
+								</li>
+								
+								<li data-groups='["tech"]' >
+									<div class='inner' >
+										<img src='img/portfolio/5.jpg' alt>
+										
+										<div class='overlay' >
+											
+											<a href='#popup-5' class='view-project' >
+												View Project
+											</a>
+											
+											<!--project popup-->
+											<div id='popup-5' class='popup-box zoom-anim-dialog mfp-hide' >
+												<figure>
+													
+													<!--project popup image-->
+													<img src='img/portfolio/5.jpg' alt>
+												
+												</figure>
+												<div class='content' >
+													
+													<!--project popup title-->
+													<h4>My Project Title</h4>
+													
+													<!--project popup description-->
+													<p>
+														Consul latine iudicabit eu vel. Cu has animal eruditi voluptatibus. Eu volumus explicari sed. Mel mutat vituperata suscipiantur et, et fabellas explicari adipiscing quo, no mucius euismod vis. Cu vim quem quod cibo.
+													</p>
+													
+												</div>
+												
+											</div>
+											
+										</div>
+										
+									</div>
+								</li>
+								
+								<li data-groups='["photography"]' >
+									<div class='inner' >
+										<img src='img/portfolio/6.jpg' alt>
+										
+										<div class='overlay' >
+											
+											<a href='#popup-6' class='view-project' >
+												View Project
+											</a>
+											
+											<!--project popup-->
+											<div id='popup-6' class='popup-box zoom-anim-dialog mfp-hide' >
+												<figure>
+													
+													<!--project popup image-->
+													<img src='img/portfolio/6.jpg' alt>
+												
+												</figure>
+												<div class='content' >
+													
+													<!--project popup title-->
+													<h4>My Project Title</h4>
+													
+													<!--project popup description-->
+													<p>
+														Consul latine iudicabit eu vel. Cu has animal eruditi voluptatibus. Eu volumus explicari sed. Mel mutat vituperata suscipiantur et, et fabellas explicari adipiscing quo, no mucius euismod vis. Cu vim quem quod cibo.
+													</p>
+													
+												</div>
+												
+											</div>
+											
+										</div>
+										
+									</div>
+								</li>
+								
+							</ul>
+							
+						</div>
+					
+					</div>
+					
+				</section>
+				
+				
+				<!--=====================================================
+					Contact Section
+				=====================================================-->
+				<section id='contact' class='section contact-section border-d' >
+					
+					<div class='section-block contact-block' >
+						
+						<div class='container-fluid' >
+							
+							<div class='section-header' >
+								<h2>Contact <strong class='color' >Me</strong></h2>
+							</div>
+							
+							
+							<div class='row' >
+							
+								<div class='col-md-8' >
+									
+									<div class='contact-form disabled' >
+									
+										<form id='contact-form' data-toggle='validator' method='post' action='mail.php' >
+										
+											<div id='contact-form-result' ></div>
+										
+											<div class='row' >
+												
+												<div class='col-md-6' >
+													<div class='form-group' >
+														
+														<input type='text' class='form-control' placeholder='Name' name='name' required>
+														<div class='help-block with-errors' ></div>
+														
+													</div>												
+												</div>
+												
+												<div class='col-md-6' >
+													<div class='form-group' >
+														
+														<input type='email' class='form-control' placeholder='Email' name='email' required>
+														<div class='help-block with-errors' ></div>
+													
+													</div>
+												</div>
+												
+											</div>
+											
+											<div class='form-group' >
+												
+												<input type='text' class='form-control' placeholder='Subject' name='subject' required>
+												<div class='help-block with-errors' ></div>
+											
+											</div>
+											
+											<div class='form-group' >
+												
+												<textarea class='form-control' placeholder='Message' name='message' rows='5' required></textarea>
+												<div class='help-block with-errors' ></div>
+												
+											</div>
+											
+											<div class='form-group text-center' >
+												<button type='submit' class='btn-custom btn-color' >
+													Send Message
+												</button>
+											</div>
+											
+										</form>
+										
+									</div>
+									
+									
+								</div>
+								
+								<div class='col-md-4' >
+									
+									<div class='contact-info-icons' >
+										
+										<div class='contact-info' >
+											
+											<i class='ion-ios-location-outline' ></i>
+											
+											<p>
+												
+												Rawalpindi,Punjab<br>
+												Pakistan
+											</p>
+											
+										</div>
+										
+										
+										<div class='contact-info' >
+											
+											<i class='ion-ios-telephone-outline' ></i>
+											
+											<p>
+												(+92) 333-5629299<br>
+												(+92) 323-5525140
+											</p>
+											
+										</div>
+										
+										
+										<div class='contact-info' >
+											
+											<i class='ion-android-globe' ></i>
+											
+											<p>
+												www.instagram.com/chmuhammadasim<br>
+												www.asimchattha.site
+											</p>
+											
+										</div>
+										
+										
+										
+										
+									</div>
+									
+									
+									
+								</div>
+								
+								
+							</div>
+							
+							
+							
+						</div>
+					
+					</div>
+					
+				</section>
+				
+			</div>
+			
+		</div>
+		
+		
+		<!--=====================================================
+			JavaScript Files
+		=====================================================-->
+		<script src='js/jquery.min.js' ></script>
+		<script src='js/jquery.shuffle.min.js' ></script>
+		<script src='js/owl.carousel.min.js' ></script>
+		<script src='js/jquery.magnific-popup.min.js' ></script>
+		<script src='js/validator.min.js' ></script>
+		<script src='js/script.js' ></script>
+		
+	</body>
 </html>
